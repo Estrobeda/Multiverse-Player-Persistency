@@ -11,7 +11,14 @@ commands:
 /mvpp remp [portal_name] // removes the portal from the list (from addp)
 /mvpp tp [player] [world] // teleports a player to their last known location on the world, or to world spawn/bed if unknown. (mvtp is overridden with this command but this allows for mvpp specific permissions to be set)
 
+Requirements:
+Requirement:
+    - multiverse-core
 
+optional:
+    - multiverse-portals (for portal commands and logic)
+    - multiverse-compass-navigation (adds UI for bedrock & java for world travel using a compass, tbd)
+    
 
 
 
